@@ -83,13 +83,13 @@ body {
   background: rgba(0, 175, 157, 0.29);
   bottom: 25%;
 }
-
+/*
 @media (min-width:768px) and (max-width: 992px) {
   .bg-block {
     display: block;
     height: 400px;
   }
-}
+}*/
 
 @media (min-width: 992px) {
   .bg-block {
