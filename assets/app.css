@@ -19,6 +19,10 @@
   align-items: center;
 }
 
+.flex--hcenter {
+  justify-content: center;
+}
+
 .c-logo {
   height: 51px;
   width: 80px;
@@ -38,12 +42,14 @@
 
 .c-project {
   background-color: var(--brand-white);
-  width: 350px;
+  /*width: 350px;*/
+  width: 100%;
   height: 260px;
+  margin-top: 20px;
 }
 
 .c-project__image {
-  width: 350px;
+  /*width: 350px;*/
   height: 160px;
   background-color: var(--brand-orange);
 }
@@ -63,12 +69,24 @@
 }
 
 .bg-block {
+  display: none;
   position: absolute;
   background: rgba(0, 175, 157, 0.29);
-  width: 1000px;
-  height: 250px;
-  left: 6%;
   bottom: 25%;
+}
+
+@media (min-width:768px) and (max-width: 992px) {
+  .bg-block {
+    display: block;
+    height: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bg-block {
+    display: block;
+    height: 250px;
+  }
 }
 
 .zi-1 {
@@ -169,6 +187,11 @@ button {
 .c-banner {
   width: 47.5%;
   text-align: center;
+}
+@media (max-width: 576px) {
+  .c-banner {
+    width: 80%;
+  }
 }
 
 .c-banner__content {
