@@ -83,6 +83,7 @@ body {
   background: rgba(0, 175, 157, 0.29);
   bottom: 25%;
 }
+
 /*
 @media (min-width:768px) and (max-width: 992px) {
   .bg-block {
@@ -90,6 +91,49 @@ body {
     height: 400px;
   }
 }*/
+
+.triangle {
+  position: absolute;
+  left: 20%;
+  top: 150%;
+}
+
+.oval {
+  position: absolute;
+  left: 0;
+  top: 30%;
+}
+
+.rectangle-pink {
+  position: absolute;
+  left: -100px;
+  top: 300px;
+
+}
+
+.rectangle-green {
+  bottom: -300px;
+  right: -50px;
+  position: absolute;
+}
+
+.rectangle-light {
+  bottom: -350px;
+  right: -100px;
+  position: absolute;
+}
+
+.rectangle-pink2 {
+  top: 30px;
+  right: -150px;
+  position: absolute;
+}
+
+.rectangle-dark {
+  top: 0;
+  right: 0;
+  position: absolute;
+}
 
 @media (min-width: 992px) {
   .bg-block {
